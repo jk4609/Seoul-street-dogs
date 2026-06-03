@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seoul Street Dogs</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Noto Sans KR',sans-serif;background:#130808;color:white}
+.display{font-family:'Bebas Neue',sans-serif}
+.glow{text-shadow:0 0 15px rgba(255,200,50,.8)}
+.card{transition:.3s}
+.card:hover{transform:translateY(-6px)}
+.hero{
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+}
+</style>
+</head>
+<body>
+
+<section class="hero min-h-screen flex items-center justify-center text-center px-6">
+<div>
+<div class="text-orange-400 tracking-[.4em] uppercase mb-3">Seoul Night Market Inspired</div>
+<h1 class="display text-7xl md:text-9xl text-yellow-300 glow">SEOUL STREET DOGS</h1>
+<p class="mt-4 text-xl max-w-2xl mx-auto">Hand-dipped Korean corn dogs inspired by the neon-lit food alleys of Seoul.</p>
+<div class="mt-8 flex gap-4 justify-center flex-wrap">
+<a href="#menu" class="bg-red-500 px-6 py-3 rounded-full font-bold">View Menu</a>
+<a href="#find" class="border border-yellow-300 text-yellow-300 px-6 py-3 rounded-full">Find The Truck</a>
+</div>
+</div>
+</section>
+
+<section id="menu" class="max-w-6xl mx-auto px-6 py-20">
+<h2 class="display text-6xl text-center text-yellow-300 mb-12">MENU</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="card bg-neutral-900 p-6 rounded-2xl">
+<h3 class="text-2xl font-bold">🌭 Seoul Classic</h3>
+<p class="mt-2 text-neutral-300">Mozzarella cheese with crispy panko coating.</p>
+<div class="text-yellow-300 text-3xl mt-4">$7</div>
+</div>
+
+<div class="card bg-neutral-900 p-6 rounded-2xl">
+<h3 class="text-2xl font-bold">🥔 Potato Crunch</h3>
+<p class="mt-2 text-neutral-300">Loaded with crispy diced potatoes.</p>
+<div class="text-yellow-300 text-3xl mt-4">$9</div>
+</div>
+
+<div class="card bg-neutral-900 p-6 rounded-2xl">
+<h3 class="text-2xl font-bold">🧀 Half & Half</h3>
+<p class="mt-2 text-neutral-300">Half sausage, half mozzarella.</p>
+<div class="text-yellow-300 text-3xl mt-4">$8</div>
+</div>
+
+<div class="card bg-neutral-900 p-6 rounded-2xl">
+<h3 class="text-2xl font-bold">🌶️ Tteokbokki Fire Dog</h3>
+<p class="mt-2 text-neutral-300">Spicy gochujang glaze and rice cakes.</p>
+<div class="text-yellow-300 text-3xl mt-4">$10</div>
+</div>
+
+<div class="card bg-neutral-900 p-6 rounded-2xl">
+<h3 class="text-2xl font-bold">🖤 Squid Ink Dog</h3>
+<p class="mt-2 text-neutral-300">Squid ink batter with garlic butter.</p>
+<div class="text-yellow-300 text-3xl mt-4">$11</div>
+</div>
+
+<div class="card bg-neutral-900 p-6 rounded-2xl">
+<h3 class="text-2xl font-bold">🔥 Triple Cheese Pull</h3>
+<p class="mt-2 text-neutral-300">Mozzarella, cheddar, and gouda.</p>
+<div class="text-yellow-300 text-3xl mt-4">$10</div>
+</div>
+
+</div>
+</section>
+
+<section class="bg-black/40 py-20">
+<div class="max-w-6xl mx-auto px-6">
+<h2 class="display text-5xl text-yellow-300 mb-8">SAUCES & TOPPINGS</h2>
+<div class="grid md:grid-cols-4 gap-4">
+<div class="bg-neutral-900 p-4 rounded-xl">Honey Mustard</div>
+<div class="bg-neutral-900 p-4 rounded-xl">Gochujang Mayo</div>
+<div class="bg-neutral-900 p-4 rounded-xl">Garlic Soy</div>
+<div class="bg-neutral-900 p-4 rounded-xl">Buldak Sauce (+$1)</div>
+<div class="bg-neutral-900 p-4 rounded-xl">Cheese Powder (+$1)</div>
+<div class="bg-neutral-900 p-4 rounded-xl">Sugar Dust (+$0.50)</div>
+<div class="bg-neutral-900 p-4 rounded-xl">Crushed Ramen (+$1)</div>
+<div class="bg-neutral-900 p-4 rounded-xl">Extra Mozzarella (+$2)</div>
+</div>
+</div>
+</section>
+
+<section class="max-w-6xl mx-auto px-6 py-20">
+<h2 class="display text-5xl text-yellow-300 mb-8">KOREAN DRINKS</h2>
+<div class="grid md:grid-cols-4 gap-4">
+<div class="bg-neutral-900 p-6 rounded-xl">🥤 Milkis — $3</div>
+<div class="bg-neutral-900 p-6 rounded-xl">🍋 Yuja Lemonade — $5</div>
+<div class="bg-neutral-900 p-6 rounded-xl">🍑 Peach Tea — $4</div>
+<div class="bg-neutral-900 p-6 rounded-xl">🧋 Brown Sugar Boba — $6</div>
+</div>
+</section>
+
+<section id="find" class="bg-neutral-950 py-20 text-center">
+<h2 class="display text-6xl text-yellow-300">FIND THE TRUCK</h2>
+<p class="mt-6 text-lg">Friday • Downtown Night Market</p>
+<p>Saturday • Food Truck Festival</p>
+<p>Sunday • Brewery Pop-Up</p>
+
+<div class="mt-10">
+<a href="#" class="bg-red-500 px-6 py-3 rounded-full font-bold">Instagram @SeoulStreetDogs</a>
+</div>
+</section>
+
+<footer class="text-center py-10 border-t border-neutral-800">
+<p>© 2026 Seoul Street Dogs • Korean Corn Dogs • Night Market Inspired</p>
+</footer>
+
+</body>
+</html>
